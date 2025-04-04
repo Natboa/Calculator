@@ -70,7 +70,7 @@ def weeks():
 def weeks_calculate():
     try:
         age = int(display.get())
-        if age<0 or 100<age:
+        if age<0 or 80<age:
             label = tkinter.Label(root, text="incorrect age, try again")
             label.grid(row=9, columnspan=6)
             label.after(3000, label.destroy)
